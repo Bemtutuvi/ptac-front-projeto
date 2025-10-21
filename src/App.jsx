@@ -5,13 +5,11 @@ import Container from './Components/Container'
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
-      <Container>
-        <h1>Olá, este é o conteúdo principal!</h1>
-      </Container>
+        <h1>teste</h1>
       <Footer />
-    </>
+    </div>
   )
 }
 
