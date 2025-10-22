@@ -3,9 +3,11 @@ import Footer from './Components/Footer/index.jsx';
 
 function App() {
   return(
-  <div className='div'>
+  <div>
     <Header />
-    
+    <div>
+      <h1>Bem vindo ao nosso site!</h1>
+    </div>
     <Footer />
    </div>
 )}

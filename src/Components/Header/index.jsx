@@ -5,10 +5,11 @@ function Header() {
     <header className={styles.header}>
       <span>Bem-Vindos!!</span>
       <nav>
-        <a href="">Iniciar</a>
-        <a href="">Cadastro</a>
-        <a href="">Perfil</a>
-        <a href="">Atualizar Perfil</a>
+        <a href="/">Iniciar</a>
+        <a href="/login">Login</a>
+        <a href="/cadastrar">Cadastro</a>
+        <a href="/perfil">Perfil</a>
+        <a href="editar">Atualizar Perfil</a>
       </nav>
     </header>
   )
