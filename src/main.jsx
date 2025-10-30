@@ -18,7 +18,11 @@
           <Route path="/perfil" element={<Perfil />} />
           <Route path="/cadastrar" element={<Cadastrar />} />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
           <Route path="/cadastrar_mesa" element={<Cadastrar_Mesa />} />
+=======
+          <Route path="/consultar_mesas" element={<Consultar_mesas />} />
+>>>>>>> Stashed changes
 =======
           <Route path="/consultar_mesas" element={<Consultar_mesas />} />
 >>>>>>> Stashed changes
