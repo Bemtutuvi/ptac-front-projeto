@@ -6,7 +6,8 @@ function App() {
   <div>
     <Header />
     <div>
-      <h1>Bem vindo ao nosso site!</h1>
+      <h1>Pizzaria Florenza</h1>
+      <h2>Adiante seu atendimento, reserve sua mesa online!</h2>
     </div>
     <Footer />
    </div>
