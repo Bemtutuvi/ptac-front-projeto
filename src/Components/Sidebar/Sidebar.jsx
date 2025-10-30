@@ -5,7 +5,7 @@ const Sidebar = () => {
   <div class="sidebar">
     <div class="logo">  
     </div>
-    <a href="#">Cadastrar mesa</a>
+    <a href="/cadastrar_mesa">Cadastrar mesa</a>
     <a href="#">Reservar</a>
     <a href="#">Consultar</a>
 </div>

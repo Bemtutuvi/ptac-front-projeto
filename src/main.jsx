@@ -16,6 +16,7 @@
           <Route path="/login" element={<Login />} />
           <Route path="/perfil" element={<Perfil />} />
           <Route path="/cadastrar" element={<Cadastrar />} />
+          <Route path="/cadastrar_mesa" element={<Cadastrar_Mesa />} />
         </Routes>
       </BrowserRouter>
     </React.StrictMode>
