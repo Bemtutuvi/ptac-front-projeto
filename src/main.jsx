@@ -18,8 +18,7 @@
           <Route path="/perfil" element={<Perfil />} />
           <Route path="/cadastrar" element={<Cadastrar />} />
           <Route path="/cadastrar_mesa" element={<Cadastrar_Mesa />} />
-          <Route path="/consultar_mesas" element={<Consultar_mesas />} />
-          <Route path="/consultar_mesas" element={<Consultar_mesas />} />
+          <Route path="/consultar_mesas" element={<Consultar_mesa />} />
         </Routes>
       </BrowserRouter>
     </React.StrictMode>
