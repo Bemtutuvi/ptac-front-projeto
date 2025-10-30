@@ -1,4 +1,3 @@
-import React from 'react';
 import './Sidebar.css';
 const Sidebar = () => {
   return (
@@ -7,7 +6,7 @@ const Sidebar = () => {
     </div>
     <a href="/cadastrar_mesa">Cadastrar mesa</a>
     <a href="#">Reservar</a>
-    <a href="#">Consultar</a>
+    <a href="consultar_mesa">Consultar</a>
 </div>
 
 
