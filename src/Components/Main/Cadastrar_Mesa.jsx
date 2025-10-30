@@ -2,7 +2,7 @@ import Header from "../Header/index.jsx";
 import Footer from "../Footer/index.jsx";
 import "./Cadastrar_Mesa.css";
 
-function Cadastrar() {
+function Cadastrar_Mesa() {
   return (
     <div>
       <Header />
