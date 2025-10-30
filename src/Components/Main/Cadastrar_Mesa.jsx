@@ -1,8 +1,8 @@
 import Header from "../Header/index.jsx";
 import Footer from "../Footer/index.jsx";
-import "./Cadastrar_Mesa.css";
+import "./Cadastrar_Mesas.css";
 
-function Cadastrar_Mesa() {
+function Cadastrar_Mesas() {
   return (
     <div>
       <Header />
@@ -12,40 +12,35 @@ function Cadastrar_Mesa() {
 
           <label>
             Número da Mesa
-            <input
-              name="numeroMesa" required
-            />
+            <input name="numeroMesa" required />
           </label>
 
           <label>
             Capacidade de pessoas
-            <input
-              name="Capacidade"
-              required
-            />
+            <input name="capacidade" required />
           </label>
+
           <label>
             Status da mesa
-            <input
-              name="statusMesa"
-              required
-            />
+            <input name="statusMesa" required />
           </label>
 
           <label>
             Possui assento infantil?
-            <input name="telefone" required />
+            <input name="assentoInfantil" required />
           </label>
 
-          <button type="submit" className="botao">
-            Salvar
-          </button>
-          <button type="submit" className="botao">
-            Editar
-          </button>
-          <button type="submit" className="botao">
-            Excluir
-          </button>
+          <div style={{ display: "flex", gap: "8px", marginTop: "8px" }}>
+            <button type="submit" className="botao">
+              Salvar
+            </button>
+            <button type="button" className="botao">
+              Editar
+            </button>
+            <button type="button" className="botao">
+              Excluir
+            </button>
+          </div>
         </form>
       </div>
       <Footer />
@@ -53,4 +48,4 @@ function Cadastrar_Mesa() {
   );
 }
 
-export default Cadastrar_Mesa;
+export default Cadastrar_Mesas;
