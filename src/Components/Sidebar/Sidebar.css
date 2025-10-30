@@ -1,0 +1,34 @@
+.sidebar {
+    width: 150px;
+    height: 100%;
+    background-color: #8C2407; /* azul escuro */
+    padding-top: 20px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.logo span {
+    color: #00AEEF; /* azul claro */
+}
+
+.sidebar a {
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar a:hover {
+    background-color: #20496C;
+}
+
