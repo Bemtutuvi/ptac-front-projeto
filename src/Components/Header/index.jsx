@@ -5,7 +5,7 @@ function Header() {
     <header className={styles.header}>
       <span>Reserva de Mesas Online</span>
       <nav>
-        <a href="/">Iniciar</a>
+        <a href="/">Home</a>
         <a href="/login">Login</a>
         <a href="/cadastrar">Cadastro</a>
         <a href="/perfil">Perfil</a>
