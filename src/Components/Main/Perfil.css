@@ -3,11 +3,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #f6f8ff 0%, #eef6ff 100%);
-  padding: 32px;
   box-sizing: border-box;
 }
-
+.perfil-image {
+  display: flex;
+  justify-content: center;
+}
+.perfil{
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
 .perfil-card {
   width: 100%;
   max-width: 480px;
@@ -17,45 +23,14 @@
   padding: 28px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 12px;
   box-sizing: border-box;
 }
 
-.perfil-card h2 {
-  margin: 0 0 6px 0;
-  text-align: center;
-}
-
-label {
-  font-size: 14px;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-input, textarea {
-  padding: 10px 12px;
-  border: 1px solid #d8e0ef;
-  border-radius: 8px;
-  font-size: 14px;
-  outline: none;
-  resize: none;
-}
-
-input:focus, textarea:focus {
-  box-shadow: 0 0 0 4px rgba(30, 120, 255, 0.06);
-  border-color: #1e78ff;
-}
-
-.grid-2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-}
 
 .botao {
   margin-top: 6px;
-  padding: 10px 14px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -64,13 +39,24 @@ input:focus, textarea:focus {
   color: white;
 }
 
-.botao:active {
-  transform: translateY(1px);
+.cards{
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
 }
-
-.muted {
-  font-size: 12px;
-  color: #77839a;
-  margin: 6px 0 0 0;
-  text-align: center;
+.historicos-de-mesas {
+  width: 700px;
+  height: 980px;
+  padding: 30px;
+  background-color: #ffffff;
+  top: 0px;
+  margin-top: 28px;
+}
+.mesa{
+  width: 300px;
+  margin-right: 250px;
+}
+.historico-card{
+  display: flex;
+  width: 100%;
 }

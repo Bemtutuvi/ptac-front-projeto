@@ -1,7 +1,8 @@
 import './Sidebar.css';
 const Sidebar = () => {
   return (
-  <div class="sidebar">
+    <div class="sidebar">
+    <img src='../../../images/logo.png'/>
     <div class="logo">  
     </div>
     <a href="/cadastrar_mesa">Cadastrar mesa</a>
