@@ -3,13 +3,13 @@ import styles from './Header.module.css'
 function Header() {
   return (
     <header className={styles.header}>
-      <span>Reserva de Mesas Online</span>
+      <span>Reservas de Mesas Online</span>
       <nav>
         <a href="/">Home</a>
         <a href="/login">Login</a>
         <a href="/cadastrar">Cadastro</a>
         <a href="/perfil">Perfil</a>
-        <a href="editar">Atualizar Perfil</a>
+        <a href="/editar">Atualizar Perfil</a>
       </nav>
     </header>
   )
