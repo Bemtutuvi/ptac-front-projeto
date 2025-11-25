@@ -1,0 +1,87 @@
+/* Estilos gerais */
+body {
+  background-color: #1a1a1a;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.cardapio-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.cardapio-title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.card-item {
+  background-color: #2a2a2a;
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.card-item img {
+  width: 130px;
+  height: 130px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.card-info {
+  flex: 1;
+}
+
+.card-info h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card-info p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.card-preco {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.card-preco p:first-child {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.card-preco p:last-child {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn-add {
+  background-color: #f7d441;
+  color: black;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-add:hover {
+  background-color: #ffdf59;
+}
