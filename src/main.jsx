@@ -7,7 +7,8 @@
   import Cadastrar from "./Components/Main/Cadastrar.jsx";
   import Cadastrar_Mesa from "./Components/Main/Cadastrar_Mesa.jsx";
   import Consultar_mesa from "./Components/consultar/consultar.jsx";
-  import Login from "./Components/Main/Login.jsx";
+  import Reserva from "./Components/Reserva/Reserva_mesa.jsx";  
+  import Login from "./Components/Main/Login.jsx"
 
   ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
@@ -20,6 +21,7 @@
           <Route path="/cadastrar" element={<Cadastrar />} />
           <Route path="/cadastrar_mesa" element={<Cadastrar_Mesa />} />
           <Route path="/consultar_mesa" element={<Consultar_mesa />} />
+          <Route path="/reserva_de_mesa" element={<Reserva />} />
         </Routes>
       </BrowserRouter>
     </React.StrictMode>
