@@ -1,0 +1,65 @@
+
+Footer{
+    bottom: 0;
+    display: flex;
+}
+.container {
+    background-color: white;
+  width: 500px;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.form-reserva {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+}
+
+.campo label {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 5px;
+}
+
+.campo input,
+.campo textarea {
+  padding: 10px;
+  border: 1px solid #dadde2;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+  height: 110px;
+}
+
+.full {
+  grid-column: 1 / -1;
+}
+
+.botao {
+  grid-column: 1 / -1;
+  padding: 12px;
+  background: var(--accent);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
