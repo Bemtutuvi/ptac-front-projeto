@@ -1,7 +1,6 @@
-import React, { useState } from "react";
 import Header from "../Header/index.jsx";
-import Sidebar from "../Sidebar/Sidebar.jsx";
 import Footer from "../Footer/index.jsx";
+import "./Cadastrar.css";
 
 function Cadastrar() {
   return (

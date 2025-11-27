@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Header from "../Header/index.jsx";
-import Sidebar from "../Sidebar/Sidebar.jsx";
+import Sidebar from "../sidebar/sidebar";
 import Footer from "../Footer/index.jsx";
 import "./ConsultaR.css";
 
