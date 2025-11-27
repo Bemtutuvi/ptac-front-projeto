@@ -9,7 +9,7 @@ function App() {
     <div>
     <Sidebar />
     </div>
-    <div class="conteudo">
+    <div className="conteudo">
 <section className="hero elegant-hero">
 <div className="overlay" />
 <div className="hero-content">
@@ -22,21 +22,20 @@ paixão.
 </div>
 </section>
 
-
 <section className="section-info">
-<div>
+<div className='informacao'>
 <h3>Horário de Funcionamento</h3>
 <p>Segunda a Domingo — 18h às 23h</p>
 </div>
 
 
-<div>
+<div className='informacao'>
 <h3>Endereço</h3>
 <p>Rua dos Sabores, 112 — Centro, São Paulo</p>
 </div>
 
 
-<div>
+<div className='informacao'>
 <h3>Contato</h3>
 <p>(11) 99999‑9999</p>
 </div>

@@ -1,9 +1,8 @@
 .perfil-container {
+  margin-top: 30px;
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
 }
 .perfil-image {
   display: flex;
@@ -40,21 +39,22 @@
 }
 
 .cards{
-    margin-left: 150px;
-    display: flex;
-    justify-content: center;
+  margin-right: 0%;
+  margin-left: 250px;
+  display: flex;
+  justify-content: center;
 }
 .historicos-de-mesas {
   width: 700px;
-  height: 980px;
+  height: 100%;
   padding: 30px;
   background-color: #ffffff;
   top: 0px;
   margin-top: 28px;
+  margin-bottom: 40px;
 }
 .mesa{
   width: 300px;
-  margin-right: 250px;
 }
 .historico-card{
   display: flex;

@@ -4,6 +4,7 @@
 }
 
 body {
+  background-image: url("../images/body.jpg");
 font-family: 'Poppins', sans-serif;
 background-color: #f5f1e8;
 color: #2c2c2c;
@@ -63,10 +64,15 @@ line-height: 1.6;
 padding: 60px 40px;
 text-align: center;
 display: flex;
-flex-direction: column;
+justify-content: center;
 gap: 35px;
 }
 
+.informacao{
+  width: 50%;
+  background-color: white;
+  border-radius: 20px;
+}
 
 .section-info h3 {
 font-family: 'Playfair Display', serif;

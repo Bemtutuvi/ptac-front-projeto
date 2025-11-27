@@ -1,80 +1,112 @@
+.tamanhos-imagem{
+    width: 60%;
+    height: 400px;
+    border-radius: 8px;
+    padding-bottom: 10px;
+}
+* {
+    font-family: "Poppins", sans-serif;
+    transition: 0.25s ease;
+}
+h1{
+    color: black;
+}
 .cardapio-container {
-  width: 100%;
-  min-height: 100vh;
-  padding: 24px;
   display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.cardapio-title {
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.card-list {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.card-item {
-  background-color: #2a2a2a;
-  border-radius: 16px;
-  padding: 16px;
-  display: flex;
-  gap: 16px;
+  justify-content: center;
   align-items: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  flex-direction: column;
+    margin-left: 150px;
+    min-height: 100vh;
+    padding: 40px;
+    color: #4b2d20;
 }
 
-.card-item img {
-  width: 130px;
-  height: 130px;
-  border-radius: 12px;
-  object-fit: cover;
+.cardapio-titulo {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #8b2e1f; 
+    margin-bottom: 20px;
+    text-align: left;
 }
 
-.card-info {
-  flex: 1;
+/* LISTA DE PIZZAS */
+.lista-pizzas {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    width: 70%;
+}
+
+/* CARD DE CADA PIZZA */
+.card-pizza {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    background: #fff8ee;
+    border-radius: 18px;
+    padding: 20px;
+    border: 1px solid #e0c6a4;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+.card-pizza:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.18);
+}
+
+.card-pizza img {
+    width: 130px;
+    height: 130px;
+    border-radius: 14px;
+    object-fit: cover;
+    border: 2px solid #d86e47;
 }
 
 .card-info h2 {
-  font-size: 20px;
-  font-weight: 600;
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #8b2e1f;
+    margin-bottom: 4px;
 }
 
 .card-info p {
-  font-size: 14px;
-  opacity: 0.8;
+    font-size: 1rem;
+    color: #5a4035;
 }
 
-.card-preco {
-  text-align: right;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
+.card-actions {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 6px;
 }
 
-.card-preco p:first-child {
-  font-size: 12px;
-  opacity: 0.7;
+.card-actions .label {
+    font-size: 0.9rem;
+    color: #7a5342;
 }
 
-.card-preco p:last-child {
-  font-size: 18px;
-  font-weight: bold;
+.card-actions .preco {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #a1452f;
 }
 
 .btn-add {
-  background-color: #f7d441;
-  color: black;
-  font-weight: 600;
-  padding: 8px 16px;
-  border-radius: 10px;
-  cursor: pointer;
+    padding: 12px 14px;
+    background: linear-gradient(135deg, #d86e47, #b34224);
+    color: white;
+    font-size: 0.95rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(150, 60, 25, 0.3);
 }
 
 .btn-add:hover {
-  background-color: #ffdf59;
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #e47c52, #c94a27);
 }
