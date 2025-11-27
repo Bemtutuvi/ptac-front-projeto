@@ -1,6 +1,6 @@
-import Header from "../Header/index.jsx";
-import Footer from "../Footer/index.jsx";
-import Sidebar from "../Sidebar/Sidebar.jsx";
+import Header from "../../Header/index.jsx";
+import Footer from "../../Footer/index.jsx";
+import Sidebar from "../../Sidebar/Sidebar.jsx";
 import "./Perfil.css";
 
 function Perfil() {

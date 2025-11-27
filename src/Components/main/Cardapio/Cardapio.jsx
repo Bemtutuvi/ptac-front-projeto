@@ -1,6 +1,6 @@
-import Header from "../Header";
-import Sidebar from "../Sidebar/Sidebar";
-import Footer from "../Footer/index"
+import Header from "../../Header";
+import Sidebar from "../../Sidebar/Sidebar";
+import Footer from "../../Footer/index"
 import "./Cardapio.css";
 
 export default function Cardapio() {

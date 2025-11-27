@@ -1,7 +1,7 @@
 import "./Reserva_mesa.css";
-import Header from "../Header";
-import Sidebar from "../Sidebar/Sidebar";
-import Footer from "../Footer";
+import Header from "../../Header";
+import Sidebar from "../../Sidebar/Sidebar";
+import Footer from "../../Footer";
 
 export default function ReservarMesa() {
   return (
