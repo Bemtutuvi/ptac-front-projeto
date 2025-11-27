@@ -10,6 +10,9 @@
   import Cardapio from "./Components/main/Cardapio/Cardapio.jsx";
   import Reserva from "./Components/main/Reserva/Reserva_mesa.jsx";  
   import Login from "./Components/main/Login/Login.jsx"
+  import PizzaG from "./Components/main/Cardapio/Menu/Grande/Pizzagrande.jsx"
+  import PizzaM from "./Components/main/Cardapio/Menu/Medio/Pizzamedio.jsx"
+  import PizzaB from "./Components/main/Cardapio/Menu/Brotinho/Pizzabrotinho.jsx"
 
 
   ReactDOM.createRoot(document.getElementById("root")).render(
@@ -25,6 +28,9 @@
           <Route path="/consultar_mesa" element={<Consultar_mesa />} />
           <Route path="/cardapio" element={<Cardapio />} />
           <Route path="/reserva_de_mesa" element={<Reserva />} />
+          <Route path="/pizzas_grandes" element={<PizzaG />} />
+          <Route path="/pizzas_media" element={<PizzaM />} />
+          <Route path="/pizzas_brotinho" element={<PizzaB />} />
 
         </Routes>
       </BrowserRouter>

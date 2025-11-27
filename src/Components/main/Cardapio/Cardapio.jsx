@@ -1,7 +1,9 @@
 import Header from "../../Header";
 import Sidebar from "../../Sidebar/Sidebar";
-import Footer from "../../Footer/index"
+import Footer from "../../Footer/index";
 import "./Cardapio.css";
+import { Link } from "react-router-dom";   // <-- ESTE AQUI!
+
 
 export default function Cardapio() {
   const pizzas = [
@@ -11,6 +13,7 @@ export default function Cardapio() {
       link: "ingredientes",
       preco: "63,00",
       imagem: "../../../images/pizza-grande.png",
+      href: "/pizzas_grandes",
     },
     {
       nome: "Pizza Média",
@@ -18,6 +21,7 @@ export default function Cardapio() {
       link: "ingredientes",
       preco: "58,00",
       imagem: "../../../images/pizza-media.png",
+      href: "/pizzas_media",
     },
     {
       nome: "Pizza Brotinho",
@@ -25,6 +29,7 @@ export default function Cardapio() {
       link: "ingredientes",
       preco: "52,00",
       imagem: "../../../images/pizza-brotinho.png",
+      href: "/pizzas_brotinho",
     },
   ];
 
@@ -47,11 +52,14 @@ export default function Cardapio() {
             </div>
 
             <div className="card-actions">
-              <p className="label">A partir de</p>
-              <p className="preco">R$ {item.preco}</p>
-              <a href="/pizzas_grandes" className="btn-desc">Ingredientes</a>
-              <button className="btn-add">Adicionar ao Carrinho</button>
-            </div>
+  <p className="label">A partir de</p>
+  <p className="preco">R$ {item.preco}</p>
+
+  <Link to={item.href} className="btn-desc">Ingredientes</Link>
+
+  <button className="btn-add">Adicionar ao Carrinho</button>
+</div>
+
           </div>
         ))}
       </div>

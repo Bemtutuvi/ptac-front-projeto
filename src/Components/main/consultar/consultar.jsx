@@ -29,7 +29,7 @@ const ConsultaMesas = () => {
         <h2 className="subtitulo">Filtros</h2>
         <div className="filtros-grid">
             <label>Status da mesa</label>
-            <select            >
+            <select>
               <option>Selecione</option>
               <option>Livre</option>
               <option>Ocupada</option>
@@ -51,15 +51,16 @@ const ConsultaMesas = () => {
             <br/>
           </div>
           <br />
+          <br />
           <div className="campo">
             <label>Capacidade da mesa</label>
             <input type="number" />
           </div>
-        </div>
-        <br />
         <div className="acoes">
           <button>FILTRAR</button>
         </div>
+        </div>
+        <br />
       </div>
 
       <div className="cards-container">

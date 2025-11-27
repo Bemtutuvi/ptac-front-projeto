@@ -12,6 +12,9 @@ function Atualizar_Perfil() {
         <form className="atualizar_Perfil-card" action="#" method="post">
           <h2 className="titulo">Atualizar Perfil do Usuario</h2>
 
+          <div className="perfil-image">
+          <img src='../../../images/Perfil.jpeg' className="perfil"/>
+          </div>
           <label>
             Nome do Usuario
             <input name="nomeCliente" placeholder="Seu nome completo" />

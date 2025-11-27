@@ -30,6 +30,7 @@
 }
 
 .historicos-de-mesas {
+  border-radius: 20px;
   width: 700px;
   height: 100%;
   padding: 30px;
@@ -41,7 +42,7 @@
   margin-bottom: 40px;
 }
 .mesa{
-  width: 300px;
+  width: 650px;
 }
 .historico-card{
   display: flex;
