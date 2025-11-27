@@ -2,14 +2,14 @@
   import ReactDOM from "react-dom/client";
   import { BrowserRouter, Route, Routes } from "react-router-dom";
   import App from "./App.jsx";
-  import Editar from "./Components/Main/Atualizar_Perfil.jsx";
-  import Perfil from "./Components/Main/Perfil.jsx";
-  import Cadastrar from "./Components/Main/Cadastrar.jsx";
-  import Cadastrar_Mesa from "./Components/Main/Cadastrar_Mesa.jsx";
+  import Editar from "./Components/Atualizar_Perfil/Atualizar_Perfil.jsx";
+  import Perfil from "./Components/Perfil/Perfil.jsx";
+  import Cadastrar from "./Components/Cadastrar/Cadastrar.jsx";
+  import Cadastrar_Mesa from "./Components/Cadastrar_Mesa/Cadastrar_Mesa.jsx";
   import Consultar_mesa from "./Components/consultar/consultar.jsx";
   import Cardapio from "./Components/Cardapio/Cardapio.jsx";
   import Reserva from "./Components/Reserva/Reserva_mesa.jsx";  
-  import Login from "./Components/Main/Login.jsx"
+  import Login from "./Components/Login/Login.jsx"
 
   ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
