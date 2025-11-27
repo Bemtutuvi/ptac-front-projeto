@@ -1,7 +1,12 @@
+/* -------------------------- */
+/*      FORMULÁRIO (SEU CSS) */
+/* -------------------------- */
+
 .cadastro-container {
   padding: 40px;
   display: flex;
-  justify-content: center;
+  flex-direction: column; /* IMPORTANTE para permitir os cards abaixo */
+  align-items: center;
 }
 
 .cadastro-card {
@@ -17,7 +22,7 @@
 
 .cadastro-card h2 {
   text-align: center;
-  color: #b7372a; /* vermelho pizza */
+  color: #b7372a;
   font-size: 26px;
   margin-bottom: 25px;
   font-weight: 700;
@@ -41,12 +46,11 @@
 }
 
 .cadastro-card input:focus {
-  border-color: #1f613a; /* verde italiano */
+  border-color: #1f613a;
   box-shadow: 0 0 6px #1f613a;
   outline: none;
 }
 
-/* Botões */
 .botao {
   width: 100%;
   padding: 12px;
@@ -62,6 +66,88 @@
 }
 
 .botao:hover {
-  background: linear-gradient(135deg, #1f613a, #174d2f); /* fica verde ao hover */
+  background: linear-gradient(135deg, #1f613a, #174d2f);
   transform: scale(1.03);
 }
+
+
+/* ----------------------------------------- */
+/*      MESA — ÁREA DAS MESAS CADASTRADAS    */
+/* ----------------------------------------- */
+
+/* Título */
+.titulo-mesas {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #b7372a;
+  text-align: center;
+}
+
+/* Grid dos cards */
+.lista-mesas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 40px;
+}
+
+/* Card */
+.mesa-card {
+  background: rgba(255, 245, 230, 0.92);
+  border: 2px solid #b7372a;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+  backdrop-filter: blur(3px);
+  transition: 0.3s;
+}
+
+.mesa-card:hover {
+  transform: scale(1.03);
+}
+
+.mesa-card p {
+  margin: 5px 0;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Botões dentro do card */
+.editar-btn,
+.excluir-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  transition: 0.25s;
+  margin-top: 10px;
+}
+
+/* Editar → Verde */
+.editar-btn {
+  background: linear-gradient(135deg, #1f613a, #174d2f);
+}
+
+.editar-btn:hover {
+  background: linear-gradient(135deg, #b7372a, #912a20);
+  transform: scale(1.05);
+}
+
+/* Excluir → Vermelho */
+.excluir-btn {
+  background: linear-gradient(135deg, #b7372a, #912a20);
+}
+
+.excluir-btn:hover {
+  background: linear-gradient(135deg, #1f613a, #174d2f);
+  transform: scale(1.05);
+}
+
