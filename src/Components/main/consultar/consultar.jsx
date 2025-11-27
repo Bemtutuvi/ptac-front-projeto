@@ -58,13 +58,15 @@ const ConsultaMesas = () => {
         </div>
         <br />
         <div className="acoes">
-          <button>filtrar</button>
+          <button>FILTRAR</button>
         </div>
       </div>
 
       <div className="cards-container">
+        <div className="caixa_do_titulo">
         <h1 className="titulo-principal">Consulta de Mesas</h1>
         <h2 className="subtitulo">Mesas</h2>
+        </div>
         <div className="cards">
           { (
             mesasFiltradas.map((mesa) => (

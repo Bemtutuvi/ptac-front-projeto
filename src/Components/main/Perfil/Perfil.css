@@ -1,7 +1,10 @@
+
 .perfil-container {
+  width: 100%;
   margin-top: 30px;
   min-height: 100vh;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .perfil-image {
@@ -24,26 +27,8 @@
   flex-direction: column;
   justify-content: center;
   gap: 12px;
-  box-sizing: border-box;
 }
 
-
-.botao {
-  margin-top: 6px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  font-weight: 600;
-  background: linear-gradient(90deg, #4b7cff, #1e78ff);
-  color: white;
-}
-
-.cards{
-  margin-right: 0%;
-  margin-left: 250px;
-  display: flex;
-  justify-content: center;
-}
 .historicos-de-mesas {
   width: 700px;
   height: 100%;
@@ -51,6 +36,8 @@
   background-color: #ffffff;
   top: 0px;
   margin-top: 28px;
+  display: flex;
+  justify-content: center;
   margin-bottom: 40px;
 }
 .mesa{
@@ -59,4 +46,8 @@
 .historico-card{
   display: flex;
   width: 100%;
+}
+.centra-histo{
+  display: flex;
+  justify-content: center;
 }

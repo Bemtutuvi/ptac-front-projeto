@@ -33,6 +33,11 @@ export default function ReservarMesa() {
         </div>
 
         <div className="campo">
+          <label>Número da mesa</label>
+          <input type="number" name="numero da mesa" min="1" max="20" required />
+        </div>
+
+        <div className="campo">
           <label>Data</label>
           <input type="date" name="data" required />
         </div>
