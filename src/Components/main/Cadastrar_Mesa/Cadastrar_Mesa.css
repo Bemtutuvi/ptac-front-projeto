@@ -48,6 +48,8 @@
 .cadastro-card input:focus {
   border-color: #1f613a;
   box-shadow: 0 0 6px #1f613a;
+  border-color: #610000; /* verde italiano */
+  box-shadow: 0 0 6px #410000;
   outline: none;
 }
 
@@ -67,6 +69,7 @@
 
 .botao:hover {
   background: linear-gradient(135deg, #1f613a, #174d2f);
+  background: linear-gradient(135deg, #610000, #410000); /* fica verde ao hover */
   transform: scale(1.03);
 }
 

@@ -44,7 +44,7 @@ input, textarea {
 
 input:focus, textarea:focus {
   box-shadow: 0 0 0 4px rgba(30, 120, 255, 0.06);
-  border-color: #1e78ff;
+  border-color: #ff1e1e;
 }
 
 
@@ -55,7 +55,7 @@ input:focus, textarea:focus {
   border-radius: 10px;
   cursor: pointer;
   font-weight: 600;
-  background: linear-gradient(90deg, #4b7cff, #1e78ff);
+  background: linear-gradient(90deg, #ff4b4b, #ff1e1e);
   color: white;
 }
 
@@ -65,7 +65,7 @@ input:focus, textarea:focus {
 
 .muted {
   font-size: 12px;
-  color: #77839a;
+  color: #9a7777;
   margin: 6px 0 0 0;
   text-align: center;
 }
