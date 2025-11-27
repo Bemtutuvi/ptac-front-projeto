@@ -1,11 +1,13 @@
-import Header from "../Header/index.jsx";
-import Footer from "../Footer/index.jsx";
+import Header from "../../Header/index.jsx";
+import Footer from "../../Footer/index.jsx";
+import Sidebar from "../../Sidebar/Sidebar.jsx"; 
 import "./Login.css";
 
 function Login() {
   return (
     <div>
       <Header />
+      <Sidebar />
       <div className="login-container">
         <form className="login-card" action="#" method="post">
           <h2>Login Usuarios</h2>

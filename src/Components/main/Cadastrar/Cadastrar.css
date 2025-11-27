@@ -1,14 +1,14 @@
-.login-container {
+.cadastro-container {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #f6f8ff 0%, #eef6ff 100%);
   padding: 32px;
   box-sizing: border-box;
 }
 
-.login-card {
+.cadastro-card {
+  color: black;
   width: 100%;
   max-width: 480px;
   background: #ffffff;
@@ -21,7 +21,7 @@
   box-sizing: border-box;
 }
 
-.login-card h2 {
+.cadastro-card h2 {
   margin: 0 0 6px 0;
   text-align: center;
 }

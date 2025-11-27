@@ -1,0 +1,67 @@
+.cadastro-container {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.cadastro-card {
+  background: rgba(255, 245, 230, 0.92);
+  border-radius: 18px;
+  padding: 35px 45px;
+  max-width: 450px;
+  width: 100%;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(3px);
+  border: 2px solid #b7372a; 
+}
+
+.cadastro-card h2 {
+  text-align: center;
+  color: #b7372a; /* vermelho pizza */
+  font-size: 26px;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.cadastro-card label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+  color: #333;
+  font-weight: 600;
+}
+
+.cadastro-card input {
+  margin-top: 6px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 2px solid #b7372a;
+  background: #fff8ef;
+  transition: 0.3s;
+}
+
+.cadastro-card input:focus {
+  border-color: #1f613a; /* verde italiano */
+  box-shadow: 0 0 6px #1f613a;
+  outline: none;
+}
+
+/* Botões */
+.botao {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  transition: 0.25s;
+  background: linear-gradient(135deg, #b7372a, #912a20);
+}
+
+.botao:hover {
+  background: linear-gradient(135deg, #1f613a, #174d2f); /* fica verde ao hover */
+  transform: scale(1.03);
+}

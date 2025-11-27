@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Header from "../Header/index.jsx";
-import Sidebar from "../sidebar/sidebar";
-import Footer from "../Footer/index.jsx";
+import Header from "../../Header/index.jsx";
+import Sidebar from "../../Sidebar/Sidebar";
+import Footer from "../../Footer/index.jsx";
 import "./ConsultaR.css";
 
 const ConsultaMesas = () => {
@@ -47,13 +47,13 @@ const ConsultaMesas = () => {
               <br/>
           <div className="campo">
             <label>Numero da mesa</label>
-            <input />
+            <input type="number" />
             <br/>
           </div>
           <br />
           <div className="campo">
             <label>Capacidade da mesa</label>
-            <input />
+            <input type="number" />
           </div>
         </div>
         <br />

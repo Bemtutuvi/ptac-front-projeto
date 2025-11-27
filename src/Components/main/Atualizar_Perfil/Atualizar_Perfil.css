@@ -1,14 +1,13 @@
-.cadastro-container {
+.atualizar_Perfil-container {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #f6f8ff 0%, #eef6ff 100%);
   padding: 32px;
   box-sizing: border-box;
 }
 
-.cadastro-card {
+.atualizar_Perfil-card {
   width: 100%;
   max-width: 480px;
   background: #ffffff;

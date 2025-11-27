@@ -1,0 +1,81 @@
+
+.container {
+  max-width: 750px;
+  margin: 120px auto;
+  background: #fff7ec; 
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(255, 140, 0, 0.45);
+  border: 2px solid #b33a2b; 
+}
+
+.container h1 {
+  text-align: center;
+  color: #a1452f; 
+  margin-bottom: 25px;
+  font-size: 2rem;
+}
+
+.form-reserva {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.campo.full {
+  width: 100%;
+}
+
+.campo label {
+  margin-bottom: 6px;
+  color: #a1452f;
+  font-weight: 600;
+}
+
+.campo input, .campo textarea {
+  padding: 12px;
+  border-radius: 10px;
+  border: 2px solid #d14b3b;
+  background: #f5e6d3; 
+  font-size: 1rem;
+  outline: none;
+  transition: 0.25s;
+}
+
+.campo textarea {
+  resize: none;
+  height: 110px;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+  border-color: #ffdd8a;
+  box-shadow: 0 0 10px #ffdd8a;
+}
+
+.botao {
+  width: 100%;
+  background: linear-gradient(45deg, #d43d2b, #ffb300);
+  border: none;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 14px;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 0 18px rgba(255, 180, 50, 0.6);
+  transition: 0.25s ease;
+}
+
+.botao:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 25px rgba(255, 200, 80, 0.8);
+  filter: brightness(1.1);
+}

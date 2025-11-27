@@ -1,14 +1,13 @@
-.perfil-container {
+.login-container {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #f6f8ff 0%, #eef6ff 100%);
   padding: 32px;
   box-sizing: border-box;
 }
 
-.perfil-card {
+.login-card {
   width: 100%;
   max-width: 480px;
   background: #ffffff;
@@ -21,7 +20,7 @@
   box-sizing: border-box;
 }
 
-.perfil-card h2 {
+.login-card h2 {
   margin: 0 0 6px 0;
   text-align: center;
 }
@@ -47,11 +46,6 @@ input:focus, textarea:focus {
   border-color: #1e78ff;
 }
 
-.grid-2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-}
 
 .botao {
   margin-top: 6px;
@@ -74,3 +68,4 @@ input:focus, textarea:focus {
   margin: 6px 0 0 0;
   text-align: center;
 }
+

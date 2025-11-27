@@ -1,11 +1,13 @@
-import Header from "../Header/index.jsx";
-import Footer from "../Footer/index.jsx";
+import Header from "../../Header/index.jsx";
+import Footer from "../../Footer/index.jsx";
+import Sidebar from "../../Sidebar/Sidebar.jsx";
 import "./Cadastrar.css";
 
 function Cadastrar() {
   return (
     <div>
       <Header />
+      <Sidebar />
       <div className="cadastro-container">
         <form className="cadastro-card" action="#" method="post">
           <h2>Cadastrar Usuarios</h2>

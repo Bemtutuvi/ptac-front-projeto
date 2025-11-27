@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer>
       <div className={styles.footer}>
-      Feito com carinho para você. Volte sempre!!
+      Aproveite sua Pizza. Volte sempre!!
       </div>
     </footer>
   )

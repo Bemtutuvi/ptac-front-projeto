@@ -1,11 +1,13 @@
-import Header from "../Header/index.jsx";
-import Footer from "../Footer/index.jsx";
+import Header from "../../Header/index.jsx";
+import Footer from "../../Footer/index.jsx";
+import Sidebar from "../../Sidebar/Sidebar.jsx";
 import "./Atualizar_Perfil.css";
 
 function Atualizar_Perfil() {
   return (
     <div>
       <Header />
+      <Sidebar />
       <div className="atualizar_Perfil-container">
         <form className="atualizar_Perfil-card" action="#" method="post">
           <h2>Atualizar Perfil Usuarios</h2>
