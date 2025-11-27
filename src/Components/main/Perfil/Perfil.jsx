@@ -5,10 +5,9 @@ import "./Perfil.css";
 
 function Perfil() {
   return (
-    <div>
+    <div className="todo-perfil">
       <Header />
       <Sidebar/>
-      <div className="cards">
       <div className="perfil-container">
         <form className="perfil-card">
           <div className="perfil-image">
@@ -36,7 +35,7 @@ function Perfil() {
             <h3>03/09/2000</h3>
         </form>
       </div>
-      
+      <div className="centra-histo">
       <div className="historicos-de-mesas">
         <form className="historico-card">
           <div className="mesa">

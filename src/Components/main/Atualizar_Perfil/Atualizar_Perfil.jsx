@@ -10,7 +10,7 @@ function Atualizar_Perfil() {
       <Sidebar />
       <div className="atualizar_Perfil-container">
         <form className="atualizar_Perfil-card" action="#" method="post">
-          <h2>Atualizar Perfil Usuarios</h2>
+          <h2 className="titulo">Atualizar Perfil do Usuario</h2>
 
           <label>
             Nome do Usuario

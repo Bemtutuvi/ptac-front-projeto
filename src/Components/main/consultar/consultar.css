@@ -5,9 +5,12 @@
 
 /* layout principal */
 .consulta-container {
+    padding-right: 10px;
     margin-left: 150px;
     min-height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
     flex-direction: column;
     align-items: center;
     padding: 40px;
@@ -23,7 +26,12 @@
     margin-bottom: 1rem;
     text-align: center;
 }
-
+.caixa_do_titulo{
+    margin-left: 200px;
+    width: 50%;
+    border-radius: 20px;
+    background-color: white;
+}
 .subtitulo {
     text-align: center;
     font-size: 1.2rem;
@@ -73,7 +81,7 @@
 /* inputs e selects */
 select,
 input {
-    width: 100%;
+    width: 90%;
     padding: 12px 14px;
     font-size: 0.95rem;
     border: 1px solid #d7b89b;
@@ -117,6 +125,8 @@ input:focus {
 
 /* mesas NÃO centralizadas mais */
 .cards {
+    width: 70%;
+    margin-left: 0%;
     width: 100%;
     display: flex;
     flex-direction: column;
