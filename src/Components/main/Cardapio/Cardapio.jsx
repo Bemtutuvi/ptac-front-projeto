@@ -8,18 +8,21 @@ export default function Cardapio() {
     {
       nome: "Pizza Grande",
       descricao: "8 fatias • até dois sabores",
+      link: "ingredientes",
       preco: "63,00",
       imagem: "../../../images/pizza-grande.png",
     },
     {
       nome: "Pizza Média",
       descricao: "6 fatias • até dois sabores",
+      link: "ingredientes",
       preco: "58,00",
       imagem: "../../../images/pizza-media.png",
     },
     {
       nome: "Pizza Brotinho",
       descricao: "4 fatias",
+      link: "ingredientes",
       preco: "52,00",
       imagem: "../../../images/pizza-brotinho.png",
     },
@@ -46,6 +49,7 @@ export default function Cardapio() {
             <div className="card-actions">
               <p className="label">A partir de</p>
               <p className="preco">R$ {item.preco}</p>
+              <a href="/pizzas_grandes" className="btn-desc">Ingredientes</a>
               <button className="btn-add">Adicionar ao Carrinho</button>
             </div>
           </div>

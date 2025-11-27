@@ -11,6 +11,7 @@
   import Reserva from "./Components/main/Reserva/Reserva_mesa.jsx";  
   import Login from "./Components/main/Login/Login.jsx"
 
+
   ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
       <BrowserRouter>
@@ -24,6 +25,7 @@
           <Route path="/consultar_mesa" element={<Consultar_mesa />} />
           <Route path="/cardapio" element={<Cardapio />} />
           <Route path="/reserva_de_mesa" element={<Reserva />} />
+
         </Routes>
       </BrowserRouter>
     </React.StrictMode>
