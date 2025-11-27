@@ -93,6 +93,17 @@ h1{
     font-weight: 800;
     color: #a1452f;
 }
+.btn-desc {
+    padding: 12px 14px;
+    background: linear-gradient(135deg, #d86e47, #b34224);
+    color: white;
+    font-size: 0.95rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(150, 60, 25, 0.3);
+}
 
 .btn-add {
     padding: 12px 14px;

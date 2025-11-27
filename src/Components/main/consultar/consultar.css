@@ -1,9 +1,9 @@
-
 * {
     font-family: "Poppins", sans-serif;
     transition: 0.25s ease;
 }
 
+/* layout principal */
 .consulta-container {
     padding-right: 10px;
     margin-left: 150px;
@@ -11,8 +11,12 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     padding: 40px;
     gap: 40px;
+    width: calc(100% - 150px);
+    box-sizing: border-box;
 }
 
 .titulo-principal {
@@ -35,21 +39,46 @@
     color: #000000;
 }
 
+/* filtros em forma de barra horizontal */
 .filtros-container {
     background: #fff7ec;
     border-radius: 18px;
     padding: 25px;
-    width: 23%;
-    min-width: 260px;
+    width: 100%;
+    max-width: 1200px;
     box-shadow: 0 6px 18px rgba(0,0,0,0.15);
     border: 2px solid #e0c6a4;
+
+    display: flex;
+    flex-wrap: wrap;      /* permite quebrar */
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
 }
 
+/* organiza os campos em linha */
+.filtros-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+/* faz número da mesa e capacidade ficarem lado a lado */
+/* sem mexer no HTML */
+.filtros-grid .campo {
+    display: flex;
+    flex-direction: column;
+    width: 180px; /* mesma linha garantida */
+}
+
+/* labels */
 .filtros-grid label {
     font-weight: 600;
     color: #734127;
 }
 
+/* inputs e selects */
 select,
 input {
     width: 90%;
@@ -58,7 +87,7 @@ input {
     border: 1px solid #d7b89b;
     border-radius: 10px;
     margin-top: 6px;
-    margin-bottom: 16px;
+    margin-bottom: 0;
     background: #fffdf8;
 }
 
@@ -69,9 +98,9 @@ input:focus {
     box-shadow: 0 0 0 3px rgba(216,110,71,0.25);
 }
 
+/* botão */
 .acoes button {
-    width: 100%;
-    padding: 14px;
+    padding: 14px 20px;
     background: linear-gradient(135deg, #d86e47, #b34224);
     color: white;
     font-size: 1rem;
@@ -87,16 +116,22 @@ input:focus {
     background: linear-gradient(135deg, #e47c52, #c94a27);
 }
 
+/* cards das mesas */
 .cards-container {
     flex: 1;
+    width: 100%;
+    max-width: 1200px;
 }
 
+/* mesas NÃO centralizadas mais */
 .cards {
     width: 70%;
     margin-left: 0%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 22px;
+    align-items: flex-start; /* NÃO CENTRALIZADO */
 }
 
 .card {
@@ -105,6 +140,7 @@ input:focus {
     padding: 22px;
     border: 1px solid #e0c6a4;
     box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+    width: 260px;
 }
 
 .card:hover {
