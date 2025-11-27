@@ -8,7 +8,7 @@ const Sidebar = () => {
     <a href="/cadastrar_mesa">Cadastrar mesa</a>
     <a href="/reserva_de_mesa">Reservar</a>
     <a href="/consultar_mesa">Consultar</a>
-    <a href="/">Cardápio</a>
+    <a href="/cardapio">Cardápio</a>
 </div>
 
 

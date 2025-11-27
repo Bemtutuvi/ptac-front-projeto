@@ -1,4 +1,5 @@
 import React from "react";
+import "./Cardapio.css";
 
 export default function Cardapio() {
   const pizzas = [
@@ -23,6 +24,7 @@ export default function Cardapio() {
   ];
 
   return (
+
     <div className="w-full min-h-screen bg-neutral-900 text-white p-6 flex flex-col gap-6">
       <h1 className="text-3xl font-bold">Pizzas</h1>
 

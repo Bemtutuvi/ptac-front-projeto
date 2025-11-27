@@ -47,13 +47,13 @@ const ConsultaMesas = () => {
               <br/>
           <div className="campo">
             <label>Numero da mesa</label>
-            <input />
+            <input type="number" />
             <br/>
           </div>
           <br />
           <div className="campo">
             <label>Capacidade da mesa</label>
-            <input />
+            <input type="number" />
           </div>
         </div>
         <br />
