@@ -4,7 +4,7 @@
   import App from "./App.jsx";
   import Editar from "./Components/Main/Atualizar_Perfil.jsx";
   import Perfil from "./Components/Main/Perfil.jsx";
-  import Cadastrar from "./Components/Main/Cadastrar.jsx";
+  import Cadastrar from "./Components/cadastrar/Cadastrar.jsx";
   import Cadastrar_Mesa from "./Components/Main/Cadastrar_Mesa.jsx";
   import Consultar_mesa from "./Components/consultar/consultar.jsx";
   import Login from "./Components/Main/Login.jsx";
