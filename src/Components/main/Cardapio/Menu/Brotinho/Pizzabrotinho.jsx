@@ -7,17 +7,17 @@ export default function CardapioPizzasGrande({ onAddToCart }) {
 const pizzas = [
 {
 id: 1,
-name: "Margherita",
-desc: "Molho de tomate, muçarela de búfala, manjericão fresco.",
-price: 48.9,
-img: "../../../../../../images/Margherita.jpg",
+name: "Frango com Catupiry",
+desc: "Frango, Catupity, mussarela, cebola, alho, azeitona, orégano.",
+price: 23.5,
+img: "../../../../../../images/frangocat.jpg",
 },
 {
 id: 2,
-name: "Calabresa",
-desc: "Fatias de calabresa, cebola caramelizada e orégano.",
-price: 54.5,
-img: "../../../../../../images/calabresa.jpg",
+name: "Napolitana",
+desc: "Tomate, mussarela, azeite de oliva, manjericão.",
+price: 26.5,
+img: "../../../../../../images/napolitana.jpg",
 },
 ];
 
@@ -28,7 +28,7 @@ return (
     <Sidebar/>
 <div className="menu-contaixner">
   <div className="centraliza-titulo">
-<h1 className="menu-title">Pizzas Grandes</h1>
+<h1 className="menu-title">Pizzas Brotinho</h1>
   </div>
 
 
